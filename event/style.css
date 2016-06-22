@@ -1,0 +1,74 @@
+/* line 1, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+body {
+  background: url(binary-1381337_1920.png) no-repeat center center fixed;
+  font-family: sans-serif;
+  color: #212121; }
+
+/* line 7, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+.container {
+  max-width: 960px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 3px solid #388E3C;
+  border-radius: 5px;
+  padding: 0;
+  margin: 5px auto; }
+
+/* line 16, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+header {
+  background-image: url(software-871026_1280.jpg);
+  background-size: auto;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto; }
+  /* line 24, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+  header h1 {
+    font-size: 3em;
+    color: #ffffff;
+    text-align: right;
+    font-family: fantasy;
+    padding: 30px; }
+
+/* line 33, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+main {
+  padding: 25px; }
+
+/* line 37, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+#programmer {
+  float: right;
+  width: 40%;
+  height: auto;
+  padding: 15px; }
+
+/* line 46, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+h1,
+h2,
+h3 {
+  color: #388E3C; }
+
+/* line 50, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+p {
+  padding-left: 40px;
+  font-size: 1.4em; }
+
+/* line 55, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+nav {
+  text-align: right;
+  padding: 20px; }
+  /* line 58, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+  nav a {
+    font-size: 1.5em;
+    color: #388E3C;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 20px; }
+  /* line 68, C:/Users/meriw/WebstormProjects/web105-2016/event/style.scss */
+  nav a:hover {
+    background: #388E3c;
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */

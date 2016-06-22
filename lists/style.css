@@ -1,0 +1,8 @@
+/* line 2, /Volumes/DATA/Users/meri/WebstormProjects/web105-2016/lists/style.scss */
+ul li {
+  list-style-type: circle; }
+  /* line 5, /Volumes/DATA/Users/meri/WebstormProjects/web105-2016/lists/style.scss */
+  ul li ul li {
+    list-style-type: square; }
+
+/*# sourceMappingURL=style.css.map */
