@@ -2,100 +2,53 @@
 <html>
 
 <head>
-    <title>Creating a Basic Table</title>
+    <title>Intro to responsive design</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        table {
-            width: 95%;
-            border-spacing: 10px;
-        }
-        
-        th {
-            text-align: left;
-        }
-        
-        table,
-        td,
-        th {
-            border: 1px solid black;
-        }
-        
-        td,
-        th {
-            padding: 15px;
-        }
-    </style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>
-            Creating a Basic Table
-            
-            </h1>
-            <nav>
-                <a href="index.html">Basic Table</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="table2.html">Styling a Table</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="table3.html">Making a Calendar</a>
-            </nav>
-        </header>
-        <main>
-            <table>
-                <caption>This is a table!</caption>
-                <tr>
-                    <th> header</th>
-                    <th> header</th>
-                    <th> header</th>
-                    <th> header</th>
-                    <th> header</th>
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td colspan="2" style="background:ivory;"> span 2 columns</td>
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td rowspan="2" style="background:ivory;"> 2 rows</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
+    <div id="container">
+        <div class="row">
+            <div class="col-12" id="masthead">
+                <h1>Sample Site</h1>
+            </div>
 
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                </tr>
+        </div>
 
 
 
-            </table>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-8">
+                <div class="row">
+                    <!-- The contents of each row must add up to 12 -->
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-2 button"><a href="#">Button</a></div>
+                    <div class="col-1">&nbsp;</div>
+                </div>
 
+            </div>
 
+        </div>
 
-
-        </main>
-
-
-
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"><img src="images/rambo3.jpg" /></div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"><img src="images/rambo5.jpg" /></div>
+            <div class="col-4"> </div>
+            <div class="col-4"><img src="images/rambo2.jpg" style="margin-top:5em;" /></div>
+        </div>
     </div>
-    <!-- end container -->
-
 
 </body>
-
-
 
 </html>
