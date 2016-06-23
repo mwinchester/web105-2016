@@ -1,101 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Creating a Basic Table</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        table {
-            width: 95%;
-            border-spacing: 10px;
-        }
-        
-        th {
-            text-align: left;
-        }
-        
-        table,
-        td,
-        th {
-            border: 1px solid black;
-        }
-        
-        td,
-        th {
-            padding: 15px;
-        }
-    </style>
+    <title>Web 105 Project Samples</title>
+    <meta charset="utf-8">
+
+    <meta name="description" content="Web 105 Sample Projects McHenry County College">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-red.min.css" />
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>
-            Creating a Basic Table
-            
-            </h1>
-            <nav>
-                <a href="index.html">Basic Table</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="table2.html">Styling a Table</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="table3.html">Making a Calendar</a>
-            </nav>
-        </header>
-        <main>
-            <table>
-                <caption>This is a table!</caption>
-                <tr>
-                    <th> header</th>
-                    <th> header</th>
-                    <th> header</th>
-                    <th> header</th>
-                    <th> header</th>
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td colspan="2" style="background:ivory;"> span 2 columns</td>
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td rowspan="2" style="background:ivory;"> 2 rows</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
 
-                </tr>
-                <tr>
-                    <th> header</th>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                    <td> cell</td>
-                </tr>
+    <!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+    <header class="container">
+
+        <h1>Web 105 Sample Projects</h1>
 
 
+        <nav>
+            <a href="#mod1">Module 1</a>
+            <a href="#mod2">Module 2</a>
+            <a href="#mod3">Module 3</a>
+            <a href="#mod4">Module 4</a>
+            <a href="#mod5">Module 5</a>
+            <a href="#mod6">Module 6</a>
+            <a href="#mod7">Module 7</a>
+            <a href="#mod8">Module 8</a>
+        </nav>
 
-            </table>
+
+    </header>
+
+    <main>
+        <div class="container">
+
+            <h2 id="mod1">Module 1: Making a simple web page</h2>
+
+            <a href="initial/index.html">Initial Web Page</a>
+            <p> Creating and uploading your first web page</p>
+
+            <p><a href="#top">Top</a></p>
+        </div>
+
+
+        <div class="container">
+            <h2 id="mod2">Module 2: Hand Coding HTML</h2>
+
+            <a href="styles/index.html">Introducing Styles</a>
+            <p>Adding styles to your HTML code</p>
+
+            <a href="formatting/index.html">HTML formatting</a>
+            <p>Introducing simple formatting concepts</p>
+
+
+            <a href="advertising/index.html">Advertising Page</a>
+            <p>Using different text features to create an advertising page</p>
+
+            <p><a href="#top">Top</a>
+            </p>
+        </div>
 
 
 
 
-        </main>
+
+        <div class="container">
+            <h2 id="mod3">Module 3: Adding content</h2>
+
+            <a href="links/index.html">Links</a>
+            <p>Exploring differenty types of links</p>
+
+            <a href="lists/index.html">Lists</a>
+            <p>Creating and styling lists</p>
+
+
+            <a href="commons/index.html">Creative Commons</a>
+            <p>Finding and using creative commons resources</p>
+
+            <a href="images/index.html">Images</a>
+            <p>Editing and styling images for the web</p>
+
+
+            <a href="event/index.html">Event site</a>
+            <p>Creating a two page event site with an external style sheet</p>
+            <p><a href="#top">Top</a></p>
+        </div>
 
 
 
-    </div>
-    <!-- end container -->
+
+        <div class="container">
+
+            <h2 id="mod4">Module 4: Planning tools</h2>
+
+            <a href="selecting-colors/index.html">Selecting Colors</a>
+            <p>Putting together a color scheme for a website</p>
 
 
+
+            <a href="fonts/index.html">Fonts</a>
+            <p>Integrating Google fonts into your web page</p>
+
+            <p><a href="#top">Top</a></p>
+        </div>
+
+
+
+        <div class="container">
+            <h2 id="mod5">Module 5: Semantic Layout with CSS</h2>
+
+
+            <a href="tables/index.html">Tables</a>
+            <p>Creating, styling, and using tables for the web</p>
+
+
+            <a href="blocks/index.html">Blocks</a>
+            <p>HTML Blocks - in layout</p>
+
+
+            <a href="layout/index.html">CSS Layout</a>
+            <p>Using CSS to control page layout</p>
+
+
+            <a href="semantic/index.html">Semantic Design</a>
+            <span class="mdl-list__item-sub-title">Semantic design and document flow</span>
+
+            <p><a href="#top">Top</a></p>
+        </div>
+
+
+
+
+        <div class="container">
+            <h2 id="mod6">Module 6: Multimedia </h2>
+
+            <a href="sound/index.html">Sounds</a>
+            <p>Integrating sounds into your web site</p>
+
+
+
+            <a href="iframe/index.html">IFrames</a>
+            <p>Embedding other page content using IFrames</p>
+
+
+
+            <a href="youtube/index.html">YouTube</a>
+            <p>Integrating YouTube videos into your web page</p>
+
+
+
+            <p><a href="#top">Top</a></p>
+        </div>
+
+        <div class="container">
+            <h2 id="mod7">Module 7: Introducing Responsive Design</h2>
+
+            <a href="responsive-grid/index.html">Responsive Grid</a>
+            <p>Creating a responsive grid with media queries</p>
+            <a href="responsive-site/index.html">Responsive Site</a>
+            <p>Creating a responsive site based on your responsive grid</p>
+            <p><a href="#top">Top</a></p>
+        </div>
+
+        <div class="container">
+            <h2 id="mod8">Module 8: Content Management Systems - WordPress</h2>
+            <p>Wordpress site</p>
+            <p>Wordpress pages</p>
+            <p>Wordpress posts</p>
+            <p>Wordpress navigation</p>
+            <p><a href="#top">Top</a></p>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </main>
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 </body>
-
-
-
-</html>
