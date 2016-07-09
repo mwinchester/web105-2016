@@ -1,9 +1,5 @@
  /* styles taken from http://www.w3schools.com/css/css_rwd_grid.asp */
  
- @viewport {
-     width: device-width;
- }
- 
  * {
      box-sizing: border-box;
  }
@@ -24,8 +20,8 @@
      padding: 15px;
  }
  
- @media only screen and (min-width: 600px) {
-     /* For tablets: */
+ @media only screen and (min-width: 400px) {
+     /* For tablets and large phones: */
      background-color: green;
      .col-m-1 {
          width: 8.33%;
@@ -105,11 +101,11 @@
      }
  }
  
- .row:after {
-     content: "";
-     clear: both;
-     display: block;
- }
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
  
  img {
      max-width: 100%;
