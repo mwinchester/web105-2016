@@ -13,44 +13,45 @@ header {
   /* line 21, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
   header a {
     display: inline-block;
-    margin: 10px 15px;
+    margin: 10px 8px;
     color: white;
-    font-weight: 500;
-    font-size: 1.1em;
+    font-weight: 700;
+    font-size: 1.2em;
+    background-color: #455A64;
     text-decoration: none; }
-  /* line 29, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+  /* line 30, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
   header a:hover {
     text-decoration: underline; }
-  /* line 32, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+  /* line 33, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
   header a:visited {
     color: white; }
 
-/* line 37, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+/* line 38, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
 a {
   color: #A30000;
   text-decoration: none;
   font-weight: 800; }
 
-/* line 43, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+/* line 44, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 47, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+/* line 48, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
 a:visited {
   color: #727272; }
 
-/* line 51, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+/* line 52, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
 p {
   padding-left: 1em; }
 
-/* line 55, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+/* line 56, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
 .container {
   max-width: 960px;
   border: 1px solid #B6B6B6;
   padding: 15px;
   margin: 10px auto; }
 
-/* line 62, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
+/* line 63, C:/Users/meriw/WebstormProjects/web105-2016/styles.scss */
 h2 {
   font-size: 1.4em;
   color: #455A64;

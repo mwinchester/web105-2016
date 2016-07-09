@@ -8,20 +8,30 @@ $accent-color: #A30000;
 $primary-text-color: #212121;
 $secondary-text-color: #727272;
 $divider-color: #B6B6B6;
-.demo-card-wide.mdl-card {
-    width: 95%;
-    max-width: 960px;
-    margin: 10px auto;
-}
-
 header {
-    .mdl-card__title {
-        color: #fff;
-        height: 176px;
-        background: url('web.png');
-        background-repeat: no-repeat;
-        background-position: right;
+    color: #fff;
+    height: auto;
+    background: url('web.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: $primary-color-dark;
+    h1 {
+        color: white;
+    }
+    a {
+        display: inline-block;
+        margin: 10px 8px;
+        color: white;
+        font-weight: 700;
+        font-size: 1.2em;
         background-color: $primary-color-dark;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:visited {
+        color: white;
     }
 }
 
@@ -41,4 +51,17 @@ a:visited {
 
 p {
     padding-left: 1em;
+}
+
+.container {
+    max-width: 960px;
+    border: 1px solid $divider-color;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: $primary-color-dark;
+    font-weight: 600;
 }
